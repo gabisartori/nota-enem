@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nota do ENEM</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Nota do ENEM</h1>
+    <main>
+        <h2>Sua nota</h2>
+        <table>
+            <tr>
+                <th>Matéria</th>
+                <th>Nota</th>
+                <th>Peso</th>
+                <th>Parcial</th>
+            </tr>
+            <tr>
+                <td>Linguagens</td>
+                <td><input type="number" id="lang_nota"></td>
+                <td><input type="number" id="lang_peso" value="1"></td>
+                <td id="lang_parcial"></td>
+            </tr>
+
+            <tr>
+                <td>Ciências humanas</td>
+                <td><input type="number" id="human_nota"></td>
+                <td><input type="number" id="human_peso" value="1"></td>
+                <td id="human_parcial"></td>
+            </tr>
+
+            <tr>
+                <td>Ciências da natureza</td>
+                <td><input type="number" id="nat_nota"></td>
+                <td><input type="number" id="nat_peso" value="1"></td>
+                <td id="nat_parcial"></td>
+            </tr>
+
+            <tr>
+                <td>Matemática</td>
+                <td><input type="number" id="math_nota"></td>
+                <td><input type="number" id="math_peso" value="1"></td>
+                <td id="math_parcial"></td>
+            </tr>
+
+            <tr>
+                <td>Redação</td>
+                <td><input type="number" id="essay_nota"></td>
+                <td><input type="number" id="essay_peso" value="1"></td>
+                <td id="essay_parcial"></td>
+            </tr>
+        </table>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
